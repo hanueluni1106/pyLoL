@@ -26,7 +26,7 @@ class ReplayScraper(object):
             dataset_dir,
             scraper_dir,
             replay_speed=8,
-            region="EUW"):
+            region="KR"):
         self.game_dir = game_dir
         self.replay_dir = replay_dir
         self.dataset_dir = dataset_dir
@@ -79,10 +79,10 @@ class ReplayScraper(object):
             end_time: Number of seconds to scrape within replay.
             delay: Number of seconds to wait before ending.
         """
-        replay_fname = f"{self.region}1-{game_id}.rofl"
+        replay_fname = f"{self.region}-{game_id}.rofl"
         replay_path = os.path.join(self.replay_dir, replay_fname)
 
-        output_fname = f"{self.region}1-{game_id}.json"
+        output_fname = f"{self.region}-{game_id}.json"
         output_path = os.path.join(self.dataset_dir, output_fname)
 
         self.run_client(replay_path)
