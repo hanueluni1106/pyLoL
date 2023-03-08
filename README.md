@@ -3,7 +3,7 @@ python module for "League of Legends" dataset settings
 
 ## warning 
 
-  if you want to see replay file, the ver. of replay file must be equal to the ver. of client (!)
+  if you want to see replay file, the ver. of replay file must be "equal" to the ver. of client (!)
 
 ## settings
 
