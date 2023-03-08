@@ -1,9 +1,9 @@
 # pyLoL
 python module for "League of Legends" dataset settings 
 
-# settings
+## settings
 
   C:\Riot Games\League of Legends\Game\DATA\cfg => EnableReplayApi=1
 
-<command>
+## <command>
   setup.py develop
