@@ -31,11 +31,7 @@ setup(
     packages=[
         'autoLeague',
         'autoLeague.bin',
-        'tlol.datasets',
-        'autoLeague.replays',
-        'tlol.stats',
-        'tlol.models',
-        'tlol.lib'
+        'autoLeague.replays'
     ],
     install_requires=[
         'absl-py',

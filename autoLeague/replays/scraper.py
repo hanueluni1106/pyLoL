@@ -5,7 +5,8 @@ import os
 import time
 import json
 import subprocess
-import re
+import base64
+import requests
 
 
 class ReplayScraper(object):
