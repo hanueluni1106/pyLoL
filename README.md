@@ -7,7 +7,9 @@ python module for "League of Legends" dataset settings
 
 ## settings
 
-  C:\Riot Games\League of Legends\Game\DATA\cfg => EnableReplayApi=1
+  C:\Riot Games\League of Legends\Game\DATA\cfg\game.cfg => EnableReplayApi=1
+
+  C:\Riot Games\League of Legends\Game\DATA\cfg\PersistedSettings.json => "name": "MinimapScale", "value": "5.0000"
 
 ## <command>
   setup.py develop
